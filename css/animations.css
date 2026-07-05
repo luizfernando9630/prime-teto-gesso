@@ -1,0 +1,127 @@
+/* ===================================
+   ANIMAÇÕES
+=================================== */
+
+@keyframes fadeUp{
+
+0%{
+
+opacity:0;
+
+transform:translateY(50px);
+
+}
+
+100%{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+@keyframes fadeLeft{
+
+0%{
+
+opacity:0;
+
+transform:translateX(-50px);
+
+}
+
+100%{
+
+opacity:1;
+
+transform:translateX(0);
+
+}
+
+}
+
+@keyframes fadeRight{
+
+0%{
+
+opacity:0;
+
+transform:translateX(50px);
+
+}
+
+100%{
+
+opacity:1;
+
+transform:translateX(0);
+
+}
+
+}
+
+.hero-content{
+
+animation:fadeUp 1.2s ease;
+
+}
+
+.card{
+
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 25px 45px rgba(0,0,0,.12);
+
+}
+
+.gallery img{
+
+transition:.4s;
+
+}
+
+.gallery img:hover{
+
+transform:scale(1.04);
+
+}
+
+.btn-principal{
+
+transition:.3s;
+
+}
+
+.btn-principal:hover{
+
+transform:translateY(-4px);
+
+box-shadow:0 15px 35px rgba(212,165,55,.35);
+
+}
+
+.hidden{
+
+opacity:0;
+
+transform:translateY(60px);
+
+transition:1s;
+
+}
+
+.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
